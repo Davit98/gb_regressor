@@ -35,7 +35,7 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=["gb_regressor"],
+    packages=find_packages(exclude=("tests",)),
     package_data={"gb_regressor": ["VERSION"]},
     install_requires=requirements,
     extras_require={},
