@@ -1,0 +1,6 @@
+include gb_regressor/datasets/*.csv
+include gb_regressor/trained_models/*.pkl
+include gb_regressor/config.yml
+include gb_regressor/VERSION
+
+include ./requirements.txt
